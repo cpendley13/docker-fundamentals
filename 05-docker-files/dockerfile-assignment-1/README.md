@@ -25,4 +25,4 @@ Edit the Dockerfile in this directory.
 - To keep it clean and small, run `npm cache clean --force` after the above, in the same RUN command.
 - Then it needs to copy in all files from current directory into the image.
 - Then it needs to start the container with the command `/sbin/tini -- node ./bin/www`. Be sure to use JSON array syntax for CMD. (`CMD [ "something", "something" ]`)
-- In the end you should be using FROM, RUN, WORKDIR, COPY, EXPOSE, and CMD commands
+- In the end you should be using FROM, RUN, WORKDIR, COPY, EXPOSE, and CMD co
